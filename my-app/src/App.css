@@ -1,0 +1,238 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Header styles */
+.header {
+  display: flexbox;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+.top-section {
+  display: flex;
+}
+
+.logo-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 60px; /* Adjust margin */
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+}
+
+/* Hero section styles */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background-size: cover;
+  color: black;
+}
+
+.hero-content {
+  text-align: center;
+  width: 50%;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #ff5500;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Features and Services section styles */
+.features, .services {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.feature-card, .service-card {
+  text-align: center;
+  width: 50%;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+.feature-card h2, .service-card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.search {
+  margin-right: 20px;
+}
+
+.search input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search button {
+  background-color: #ff5500;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.contact {
+  font-size: 14px;
+  color: #555;
+  margin-right: 20px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+  opacity: 1;
+}
+
+/* Footer styles */
+.footer {
+  text-align: flexbox;
+  padding: 30px;
+  background-color: #333;
+  color: white;
+  justify-content: space-between;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.footer-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row; /* Display links horizontally */
+}
+
+.footer-links li {
+  margin-left: 30px; /* Add margin between links */
+  margin-right: 30px; /* Add margin between links */
+  margin-top: 30px;
+  margin-bottom: 60px;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #ff5500;
+}
+
+.footer-links ul ul {
+  display: block; /* Display sub-links vertically */
+  background-color: #333;
+  border-radius: 5px;
+  margin-top: 5px; /* Add spacing between sub-links */
+}
+
+
+
+.footer-links ul ul li {
+  margin: 5px 0;
+}
+
+.footer-links ul ul a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-links ul ul a:hover {
+  color: #ff5500;
+}
+
+
+.footer-social {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.footer-social img:hover {
+  opacity: 1;
+}
