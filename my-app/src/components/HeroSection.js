@@ -16,9 +16,9 @@ function HeroSection() {
             Get AgensSQL now for stable operation and management services at a reduced
             maintenance cost.
         </p>
-        <button className="cta-button">CONTACT</button>
-        <button className="cta-button">BROCHURE</button>
-        <button className="cta-button">BLOG</button>        
+        <button className="button">CONTACT</button>
+        <button className="button">BROCHURE</button>
+        <button className="button">BLOG</button>        
       </div>
 
     </section>

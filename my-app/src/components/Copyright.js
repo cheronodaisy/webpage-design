@@ -3,7 +3,7 @@ import React from 'react';
 function Contact() {
   return (
     <div className="contact">
-      <p>Contact Us: contact@example.com</p>
+      <p>2023 by Bitnine Global Inc. All Rights Reserved.</p>
     </div>
   );
 }

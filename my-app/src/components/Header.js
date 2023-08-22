@@ -1,16 +1,14 @@
 import React from 'react';
 import Search from './Search';
+import LanguageDropdown from './LanguageDropdown';
 
 function Header() {
   return (
     <header className='header'>
       <div className="top-section">
-        <Search />
-        
-{/* removed <Contact /> replaced it with link to contact page  */}
-        <li><a href="https://bitnine.net/contact/">CONTACT</a></li> 
-
         <div className="social-links">
+          <Search />
+          <li><a href="https://bitnine.net/contact/">CONTACT</a></li> 
           <a href="https://github.com/bitnine-oss/agensgraph" target="_blank" rel="noopener noreferrer">
             <img src="/assets/github.png" alt="GitHub" />
           </a>
@@ -30,6 +28,7 @@ function Header() {
       </div>
       <div className="logo-nav">
           <div className="logo"><img src="/assets/bitnine-logo_.png" alt="Bitnine" /></div>
+          <LanguageDropdown />
             <nav>
               <ul>
                 <li><a href="https://bitnine.net/agensgraph/">PRODUCTS</a></li>
@@ -39,7 +38,9 @@ function Header() {
                 <li><a href="https://bitnine.net/blog/">BLOG</a></li>
                 <li><a href="https://bitnine.net/company/">COMPANY</a></li>
                 <li><a href="https://bitnine.net/ir-announcement/">IR</a></li>
-                <li><a href="https://bitnine.net/agensgraph-downloads/">TRY FREE</a></li>
+                <li>
+                  <button className="button">TRY FREE</button>
+                </li>
               </ul>  
             </nav>
         </div>
