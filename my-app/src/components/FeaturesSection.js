@@ -1,5 +1,6 @@
 import React from 'react';
 import Tooltip from './Tooltip';
+import FlipCard from './FlipCard';
 
 function FeaturesSection() {
 
@@ -38,6 +39,14 @@ function FeaturesSection() {
               </div>
               <div className="feature-grid-item">
               <h4>Agens Enterprise Manager</h4>
+              <div className="card-container">
+                <FlipCard frontContent="Backup/Restore" backContent="provides a convenient interface for backup & restore" />
+                <FlipCard frontContent="DB Monitoring Dashboard" backContent="provides status for server CPU & memory" />
+                <FlipCard frontContent="Schedule Management" backContent="provides UX dedicated to scheduling" />
+                <FlipCard frontContent="Database Audit" backContent="enables auditing via user interface" />
+                <FlipCard frontContent="SQL Monitoring" backContent="extracts monitoring results in query" />
+                <FlipCard frontContent="Performance Management" backContent="monitors and collects operation status & statistical data" />
+              </div>
               </div>
           </div>
       </div>

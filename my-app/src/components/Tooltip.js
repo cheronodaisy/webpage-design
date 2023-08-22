@@ -1,26 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 function Tooltip() {
-  const [tooltipVisible1, setTooltipVisible1] = useState(false);
-  const [tooltipVisible2, setTooltipVisible2] = useState(false);
-  const [tooltipVisible3, setTooltipVisible3] = useState(false);
-
-  const toggleTooltip1 = () => {
-    setTooltipVisible1(!tooltipVisible1);
-  };
-
-  const toggleTooltip2 = () => {
-    setTooltipVisible2(!tooltipVisible2);
-  };
-
-  const toggleTooltip3 = () => {
-    setTooltipVisible3(!tooltipVisible3);
-  };
-
   return (
-    <div className="tooltip-container">
-      <div className={`tooltip ${tooltipVisible1 ? 'active' : ''}`} onClick={toggleTooltip1}>
-        <img src="/assets/password.png" alt="Tooltip 1" />
+    <div className="tooltip">
+      <div className="tooltip-card">
+        <img src="/assets/password.png" alt="Tooltip" />
         <div className="tooltip-content">
           <ul>
             <li>User password policy reinforces login security</li>
@@ -29,8 +13,8 @@ function Tooltip() {
           </ul>
         </div>
       </div>
-      <div className={`tooltip ${tooltipVisible2 ? 'active' : ''}`} onClick={toggleTooltip2}>
-        <img src="/assets/data-security.png" alt="Tooltip 2" />
+      <div className="tooltip-card">
+        <img src="/assets/data-security.png" alt="Tooltip" />
         <div className="tooltip-content">
           <ul>
             <li>Enhanced data security of user personal information</li>
@@ -39,8 +23,8 @@ function Tooltip() {
           </ul>
         </div>
       </div>
-      <div className={`tooltip ${tooltipVisible3 ? 'active' : ''}`} onClick={toggleTooltip3}>
-        <img src="/assets/auditing.png" alt="Tooltip 3" />
+      <div className="tooltip-card">
+        <img src="/assets/auditing.png" alt="Tooltip" />
         <div className="tooltip-content">
           <ul>
             <li>Monitors database activities and collects data</li>
