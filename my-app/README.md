@@ -1,70 +1,19 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
+## React Web Application with Components Overview
+This repository contains a React web application that demonstrates the implementation of various components to create a cohesive and interactive user experience. This project was bootstrapped with [Create React App] (https://github.com/facebook/create-react-app). It implements a webpage similar to the Bitnine website landing page https://bitnine.net/. Below is an overview of the key components used in the application.
+## Components Overview
+### Header Component
+The header component consists of the application's logo, navigation links, language dropdown, search functionality, contact information, and social media links. It provides easy navigation and access to key features of the application.
+### Hero Section Component
+The hero section introduces the application with a visually appealing layout. It includes a prominent heading, a subheading, a call-to-action button, and an eye-catching image.
+### Features Section Component
+The features section highlights the key features or services offered by the application. It uses cards and other visual elements to showcase each feature, including a title, description, and relevant icons or images.
+### Language Dropdown Component
+The language dropdown provides users with the option to select their preferred language in either English or Korean. It enhances accessibility and user-friendliness by allowing users to experience the content in their desired language.
+### Search Component
+The search component enables users to search for specific content within the application. It includes an input field and a search icon, facilitating quick and efficient content discovery.
+### Footer Component
+The footer component appears at the bottom of the webpage and includes links to various sections, such as products, resources, company information, and contact details. It also displays social media links for engagement.
 ### `npm start`
+Runs the app in the development mode. It can be viewed at (http://localhost:3000) in the browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
